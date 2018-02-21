@@ -1,0 +1,15 @@
+timeline:
+  - name: contest
+    time: 240
+    permissions:
+      allow_hack: false
+      allow_read_others: false
+      allow_read_own: true
+      allow_get_judge_status: "all"
+  - name: lock
+    time: 60
+    permissions:
+      allow_hack: fals
+      allow_read_others: false
+      allow_read_own: true
+      allow_get_judge_status: "only compile"
